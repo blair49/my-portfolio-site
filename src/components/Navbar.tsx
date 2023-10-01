@@ -31,7 +31,7 @@ const Navbar = () => {
             <Link href="/projects">
               <li className="text-xl uppercase hover:border-b">Projects</li>
             </Link>
-            <Link href="/projects">
+            <Link href="/resume">
               <li className="text-xl uppercase hover:border-b">Resume</li>
             </Link>
             <Link href="/projects">
@@ -57,7 +57,7 @@ const Navbar = () => {
             <Link href="/projects">
               <li onClick={handleNav} className="text-xl uppercase py-4">Projects</li>
             </Link>
-            <Link href="/projects">
+            <Link href="/resume">
               <li onClick={handleNav} className="text-xl uppercase py-4">Resume</li>
             </Link>
             <Link href="/projects">
