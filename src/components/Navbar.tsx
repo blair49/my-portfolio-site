@@ -14,7 +14,7 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className="fixed top-0 w-full h-12 shadow-xl bg-slate-400">
+    <nav className="fixed top-0 w-full h-12 shadow-xl bg-gray-800">
       <div className="flex justify-between items-center h-full w-full px-4 2xl:px-10">
         <Link href="/">
           <Image
@@ -34,8 +34,8 @@ const Navbar = () => {
             <Link href="/resume">
               <li className="text-xl uppercase hover:border-b">Resume</li>
             </Link>
-            <Link href="/projects">
-              <li className="text-xl uppercase hover:border-b">Contact me</li>
+            <Link href="/contact">
+              <li className="text-xl uppercase hover:border-b">Contact</li>
             </Link>
           </ul>
         </div>
@@ -60,8 +60,8 @@ const Navbar = () => {
             <Link href="/resume">
               <li onClick={handleNav} className="text-xl uppercase py-4">Resume</li>
             </Link>
-            <Link href="/projects">
-              <li onClick={handleNav} className="text-xl uppercase py-4">Contact me</li>
+            <Link href="/contact">
+              <li onClick={handleNav} className="text-xl uppercase py-4">Contact</li>
             </Link>
           </ul>
         </div>
