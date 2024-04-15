@@ -47,8 +47,7 @@ export default function Page() {
           👀 I’m interested in Android and full stack web development and also
           game development
           <br />
-          🌱 I’m currently learning Android development using Kotlin and also
-          the MERN stack
+          🌱 I’m currently learning AI/ML 🤖
           <br />
           🚀 I have developed and published a chat app on the{" "}
           <a
