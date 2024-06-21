@@ -48,15 +48,6 @@ export default function Page() {
           game development
           <br />
           🌱 I’m currently learning AI/ML 🤖
-          <br />
-          🚀 I have developed and published a chat app on the{" "}
-          <a
-            className="text-green-400 underline"
-            target="_blank"
-            href="https://play.google.com/store/apps/details?id=com.blairfernandes.smackchat"
-          >
-            Google Play store
-          </a>
         </p>
       </div>
     </div>
