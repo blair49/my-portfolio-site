@@ -1,5 +1,11 @@
 const projects = [
   {
+    title: "Inventory management system CLI using Python",
+    description: `An inventory management system application with command line interface developed using Python. Features to add, update, remove items and view inventory
+              Saving and loading inventory data from json files.`,
+    link: "https://github.com/blair49/python-inventory-management-system",
+  },
+  {
     title: "Chat app in Android",
     description: `A chat application built using Kotlin in Android Studio.
         Connects to a node.js API hosted on Heroku using web sockets to send and receive messages.
